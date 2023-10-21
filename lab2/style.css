@@ -1,0 +1,85 @@
+html {
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+}
+
+.columnSection {
+    display: flex;
+    flex-direction: column;
+    border: thick double #32a1ce;
+}
+
+.horizontalSection {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid seagreen;
+}
+
+.topLinks {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.topLink {
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+.sidePanel {
+    text-align: center;
+    width: 20vw;
+    word-wrap: normal;
+    overflow: hidden;
+
+    border: 2px solid seagreen;
+}
+
+.sidePanelLinks {
+    flex-direction: column;
+}
+
+.sidePanelLink {
+    text-align: center;
+}
+
+.textSection {
+    flex-direction: column;
+    width: 100%;
+}
+
+.textHead {
+    background-color: lightgray;
+    text-align: center;
+    font-size: x-large;
+}
+
+.textInfo {
+    width: 20vw;
+}
+
+.parent {
+    color: orange;
+    text-decoration: darkblue;
+}
+
+footer {
+    background-color: #333; /* Цвет фона футера */
+    color: #fff; /* Цвет текста */
+    padding: 20px; /* Внутренние отступы */
+    text-align: center; /* Выравнивание текста по центру */
+}

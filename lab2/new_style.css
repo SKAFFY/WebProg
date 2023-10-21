@@ -1,0 +1,95 @@
+html {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    font-family: "Arial", sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+.headHead {
+    text-align: center;
+    font-size: large;
+}
+
+.headLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.headLink {
+    flex-grow: 1;
+}
+
+.middle {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidePanel {
+
+    flex-grow: 1;
+    border: 2px solid seagreen;
+}
+
+.textSection {
+    padding: 1vw;
+    flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+.textHead {
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    font-size: x-large;
+    height: 3vw;
+    text-align: center;
+    background-color: darkgrey;
+    box-shadow: 3px 3px 3px black;
+    margin: 5px;
+}
+
+.textInfo {
+    flex-grow: 10;
+    display: flex;
+    flex-direction: row;
+}
+
+.textText {
+    flex-grow: 3;
+    border: 2px solid seagreen;
+}
+
+.textRightInfo {
+    flex-grow: 2;
+    border: 2px solid seagreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.textPhoto {
+    max-width: 19dvb; /* Максимальная ширина изображения */
+    max-height: 19dvb; /* Максимальная высота изображения */
+    object-fit: contain; /* Сохранение пропорций изображения */
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.textTableOfContents {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.bottom {
+    background-color: darkgray;
+}
