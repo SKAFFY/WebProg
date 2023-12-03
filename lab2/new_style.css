@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: blanchedalmond;
-    height: 10dvw;
+    height: 10dvh;
 }
 
 .headHead {
@@ -30,7 +30,15 @@ body {
 }
 
 .headLink {
+    text-decoration: none;
     flex-grow: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headLink:hover {
+    background-color: rgba(240, 0, 0, 0.5);
+    border-radius: 7px;
 }
 
 .middle {
@@ -47,7 +55,7 @@ body {
 }
 
 .textSection {
-    padding: 1vw;
+    padding: 1vh;
     flex-grow: 7;
     display: flex;
     flex-direction: column;
@@ -98,5 +106,13 @@ body {
 
 .bottom {
     background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.articles {
+    display: flex;
+    flex-direction: column;
 }
