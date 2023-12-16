@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Coffee-Wiki</title>
+    <script type="module" src="../lab7/alertify.min.js"></script>
+    <script type="module" src="../lab7/alertify.js"></script>
+    <link rel="stylesheet" href="../lab7/css/alertify.min.css" />
+    <link rel="stylesheet" href="../lab7/css/themes/default.min.css" />
     <link rel="stylesheet" type="text/css" href="../lab2/new_style.css">
     <script src="../lab3/page.js"></script>
     <script src="../lab3/bencmark.js"></script>
     <script src="./article_create.js"></script>
+    <script src="../lab6/rest_and_promise.js"></script>
 </head>
 <body>
 <header class="head">
@@ -24,8 +29,12 @@
         <div class="createArticle"></div>
         <div class="createdArticles"></div>
     </div>
+    <div class="articles">
+        <div class="textHead">Статьи полученные через запрос</div>
+        <div class="fetchedArticles"></div>
+    </div>
 </main>
-<footer class="bottom">
+<footer class="bottom loader-container">
     Почему все называют это подвалом?
 
     <div class="timeLoad"></div>
